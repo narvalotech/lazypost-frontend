@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="101.18768mm"
+   height="62.62936mm"
+   viewBox="0 0 101.18768 62.62936"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="letter.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.71179153"
+     inkscape:cx="351.22643"
+     inkscape:cy="513.49305"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs id="defs1">
+    <style type="text/css">@media (prefers-color-scheme: dark) {
+         svg {
+            filter: invert(100%) hue-rotate(180deg);
+         }
+      }
+    </style>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-12.029651,-12.792654)">
+    <g
+       id="g1"
+       transform="matrix(1.8168838,0,0,1.8168838,-55.75147,-154.97764)">
+      <g
+         stroke-linecap="round"
+         transform="matrix(0.26458333,0,0,0.26458333,38.897237,93.525758)"
+         id="g2">
+        <path
+           d="m -0.75,-3.34 c 46.53,2.71 94.93,3.32 201.44,3.45 M -1.33,1.51 c 63.24,-0.7 129.21,-2.34 201.84,-2.85 m -0.85,5.23 c 4.92,42.24 0.24,94.82 3.82,119.62 M 199.59,0.18 c 0.45,36 1.09,69.06 1.54,120.91 m 1.63,0.98 c -79.95,0.22 -160.09,0.64 -201.45,-0.1 m 197.19,0.83 c -50.26,3.34 -104.54,0.77 -199.86,-0.2 m 2.11,2.2 C -3.56,74.64 0.67,25.92 3.71,1.13 M -1.54,120.21 C 0.67,82.74 0.55,43.72 -1.93,-0.11"
+           stroke="#1e1e1e"
+           stroke-width="2"
+           fill="none"
+           id="path1" />
+      </g>
+      <g
+         stroke-linecap="round"
+         id="g4"
+         transform="matrix(0.26458333,0,0,0.26458333,34.924723,89.959128)">
+        <g
+           transform="translate(13.971046,10.350637)"
+           id="g3">
+          <path
+             d="M -3.97,1.65 C 29.67,18.87 53.17,31.58 98.17,71.11 M 0.37,1.38 c 37.55,23.7 78.49,49.56 102.67,69.08"
+             stroke="#1e1e1e"
+             stroke-width="2"
+             fill="none"
+             id="path2" />
+        </g>
+      </g>
+      <g
+         stroke-linecap="round"
+         id="g6"
+         transform="matrix(0.26458333,0,0,0.26458333,34.924723,89.959128)">
+        <g
+           transform="translate(214.26168,12.436998)"
+           id="g5">
+          <path
+             d="m -1.09,-2.44 c -15.29,18.55 -38.09,27.58 -89.07,70.4 M -0.24,-0.54 C -21.85,14.37 -42.06,30.68 -95.02,67.9"
+             stroke="#1e1e1e"
+             stroke-width="2"
+             fill="none"
+             id="path3" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

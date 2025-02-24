@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="assets/styles/common.css">
     <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/toast.css">
     <link rel="stylesheet" href="assets/styles/DoodleCSS/doodle.css">
 </head>
 
@@ -60,6 +61,13 @@
                     <input type="submit" value="Send!">
                 </div>
             </form>
+        </div>
+
+        <div class="toast" id="success" role="alert" aria-live="polite">
+            <span class="toast-text">Your postcard will be delivered in a few days!</span>
+        </div>
+        <div class="toast" id="error" role="alert" aria-live="polite">
+            <span class="toast-text">An error happened, please try again later.</span>
         </div>
     </div>
 

@@ -76,6 +76,10 @@
     font-size: 1.3rem;
 }
 
+.box > legend {
+    font-weight: bold;
+}
+
 .box > input {
     width: 100%;
     height: 50px;

@@ -18,6 +18,8 @@
     border-style: solid;
     border-color: #3c3c3c;
 
+    border-radius: .5rem;
+
     opacity: 0;
 
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
@@ -32,6 +34,22 @@
     animation: show-and-hide 5s forwards;
 }
 
+.toast.generic.show {
+    display: block !important;
+
+    opacity: 1;
+
+    animation: show .25s forwards;
+}
+
+.toast.generic.hide {
+    display: block !important;
+
+    opacity: 1;
+
+    animation: hide .25s forwards;
+}
+
 .toast > .toast-text {
     height: 100%;
     display: inline-flex;
@@ -43,6 +61,30 @@
     font-weight: bold;
 
     color: #fdf7f1;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+        transform: translateX(calc(100% + 20px));
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes hide {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(calc(100% + 20px));
+    }
 }
 
 @keyframes show-and-hide {
@@ -70,6 +112,18 @@
         width: 80%;
     }
 
+    @keyframes show {
+        from {
+            opacity: 0;
+            transform: translate(-50%, calc(-100% - 20px));
+        }
+
+        to {
+            opacity: 1;
+            transform: translate(-50%, 0);
+        }
+    }
+
     @keyframes show-and-hide {
         0%, 5% {
             opacity: 0;
@@ -95,6 +149,16 @@
 @media (prefers-reduced-motion) {
     .toast {
         transition: none;
+    }
+
+    @keyframes show {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
     }
 
     @keyframes show-and-hide {

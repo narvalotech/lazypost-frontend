@@ -124,6 +124,10 @@
     width: 100%;
 }
 
+.picture > input:disabled {
+    cursor: default;
+}
+
 .send {
     grid-area: send;
 
@@ -134,4 +138,9 @@
     cursor: pointer;
 
     font-size: 1.5rem !important;
+}
+
+.send > input:disabled {
+    mix-blend-mode: hard-light;
+    cursor: default;
 }

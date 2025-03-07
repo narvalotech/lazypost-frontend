@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Challenge Test</title>
+
+        <style>
+            * {
+                font-family: system-ui;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Challenge Test</h1>
+
+        <input id="sha-msg" type="text">
+        <button id="sha-btn">hash</button>
+        <br>
+        <span id="sha-res"></span>
+
+        <br>
+        <br>
+
+        <label for="salt">salt:</label>
+        <input type="text" id="salt">
+        <br>
+        <label for="hash">hash:</label>
+        <input type="text" id="hash">
+        <br>
+        <label for="iter">max iter:</label>
+        <input type="number" id="max-iter" min="1" value="1000000">
+        <br>
+        <button id="btn">compute</button>
+
+        <br>
+        <br>
+
+        <span id="challenge-answer"></span>
+        <br>
+        <span id="time"></span>
+
+        <br>
+        <br>
+
+        <a href="benchmark.html">challenge benchmark</a>
+
+        <script src="main.js"></script>
+    </body>
+</html>

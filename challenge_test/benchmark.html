@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Challenge Test</title>
+
+        <style>
+            * {
+                font-family: system-ui;
+            }
+
+            table {
+                border-collapse: collapse;
+                border: 2px solid grey;
+                font-size: 0.8rem;
+                letter-spacing: 1px;
+            }
+
+            th,
+            td {
+                border: 1px solid grey;
+                padding: 8px 10px;
+            }
+
+            tbody>tr:nth-of-type(even) {
+                background-color: whitesmoke;
+            }
+
+            tbody>tr:hover {
+                background-color: lightgrey;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Challenge Benchmark</h1>
+
+        <label for="max-digit">max number of digits:</label>
+        <input type="number" id="max-digit" min="1" max="15" value="5">
+
+        <br>
+
+        <label for="nbr-worker">number of worker:</label>
+        <input type="number" id="nbr-worker" min="1" max="64" value="1">
+
+        <br>
+
+        <button id="bench-btn" data-anim-state="0">start</button>
+        <input type="checkbox" id="keep-old-res-checkbox">
+        <label for="keep-old-res-checkbox">keep previous results</label>
+
+        <br>
+
+        <button id="enable-notif">enable notifications</button>
+        <button id="dl-csv" disabled>download csv</button>
+
+        <br>
+        <br>
+
+        <table id="bench-table">
+            <thead>
+                <tr>
+                    <th>Number of Digits</th>
+                    <th>Number of Iterations</th>
+                    <th>Maximum of Iterations</th>
+                    <th>Number of Workers</th>
+                    <th>Computation Time (<abbr title="millisecond">ms</abbr>)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr>
+                    <td>truc</td>
+                    <td>truc</td>
+                    <td>truc</td>
+                    <td>truc</td>
+                </tr>
+                <tr>
+                    <td>truc</td>
+                    <td>truc</td>
+                    <td>truc</td>
+                    <td>truc</td>
+                </tr> -->
+            </tbody>
+        </table>
+
+        <br>
+        <br>
+
+        <a href="index.html">challenge test</a>
+
+        <script src="benchmark.js"></script>
+    </body>
+</html>

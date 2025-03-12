@@ -73,6 +73,7 @@ function initialize() {
 
     const answer_field = document.getElementById("challenge-answer");
     const salt_field = document.getElementById("challenge-salt");
+    const hash_field = document.getElementById("challenge-hash");
     const form = document.querySelector(".form-container > form");
     const submit_btn = form.querySelector("input[type=submit]");
 
@@ -85,6 +86,7 @@ function initialize() {
             answer_field.value = data.answer;
             answer_field.dataset.time = data.time;
             salt_field.value = data.salt;
+            hash_field.value = data.hash;
 
             submit_btn.disabled = false;
             switchInputsState(form);

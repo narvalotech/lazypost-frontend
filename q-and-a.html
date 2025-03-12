@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>The Lazy Post Company — Q&A</title>
+
+        <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+        <link rel="stylesheet" href="assets/styles/common.css">
+        <link rel="stylesheet" href="assets/styles/DoodleCSS/doodle.css">
+    </head>
+    <body class="doodle">
+        <div class="main-container">
+            <header class="header">
+                <img src="assets/images/letter.svg" alt="Logo of The Lazy Post Company, it is a hand sketched post letter." class="logo">
+                <h1 class="title">The Lazy Post Company</h1>
+            </header>
+            <main class="text-container">
+                <h2>Q&A</h2>
+
+                <dl>
+                    <dt>Slowness as a feature, seriously?</dt>
+                    <dd>
+                        Well, not so seriously 🤪
+                        <br>
+                        It's more of a commentary on today's always-online culture. But we do plan to use this service ourselves when traveling.
+                    </dd>
+
+                    <dt>What happens to my data after delivery?</dt>
+                    <dd>
+                        We pay for hosting ourselves, so we don't want to keep data if we don't have to.
+                        <br>
+                        The postcard is stored in a database and erased as soon as it is successfully sent.
+                    </dd>
+
+                    <dt>Is my data encrypted?</dt>
+                    <dd>
+                        It is encrypted in transit (this website uses HTTPS). It is however not encrypted end-to-end, just like most emails and just like a real postcard.
+                        <br>
+                        So don't send classified top-secret messages through here :)
+                    </dd>
+
+                    <dt>The website gets slower when I submit multiple postcards.</dt>
+                    <dd>
+                        This is by design: to protect against SPAM, the website requires the client (your browser) to compute a lot of numbers. The difficulty of that computation rises for each letter send in quick succession.
+                        <br>
+                        This is to prevent bad actors sending a lot of letters very quickly.
+                        <br>
+                        Basically, you should be able to send 1-3 letters per day without waiting more than 10 seconds at this step.
+                    </dd>
+
+                    <dt>Where do I actually send the letters?</dt>
+                    <dd>
+                        This service is invite-only for now: the link to send messages is added to every message sent through the service.
+                        <br>
+                        If you really want to try it, send an e-mail to <a href="mailto:beta@lazypost.net">beta@lazypost.net</a>.
+                    </dd>
+
+                    <dt>Where is the code?</dt>
+                    <dd>
+                        The backend and frontend are open-source and available on a <a href="https://github.com/narvalotech/lazypost/">GitHub repository</a>.
+                    </dd>
+                </dl>
+            </main>
+        </div>
+    </body>
+</html>
